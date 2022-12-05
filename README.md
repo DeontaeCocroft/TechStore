@@ -1,5 +1,4 @@
 # TechStoreDatabase
-# TechStoreDatabase
 How it works!! The PythonDatabaseAccess file is my python code which connects to my TechStore Postgresql database using psycopg2.
 I used Eclipse Python and Postgresql to create this connection.
 To start This program has a password that needs to be entered.
