@@ -1,3 +1,4 @@
+# Deontae M Cocroft Connecting to Postgresql Database With Python 5 December 2022
 import psycopg2
 import sys
 
