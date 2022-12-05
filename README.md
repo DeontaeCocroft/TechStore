@@ -1,6 +1,6 @@
 # TechStoreDatabase
 The PythonDatabaseAccess is my python code which connects to my TechStore Postgresql database using psycopg2.
-This program has a password then needs to be entered.
+\nThis program has a password then needs to be entered.
 If the password is entered incorrectly the user will be prompted "Wrong Password, Please try again! and will have to enter the correct password.
 Once the user enters the correct password they will be granted access and greeted with options to display specifiy queries of information from the database.
 Option '1' Displays the customers from the database.
