@@ -1,6 +1,6 @@
 # TechStore Database Python Program
-How it works!! The PythonDatabaseAccess file is my python code which connects to my TechStore Postgresql database using psycopg2.
-I used Eclipse Python and Postgresql to create this connection.
+How it works!! The TechStoreProgram.py file is my python code which connects to my TechStore Postgresql database using psycopg2.
+I used Eclipse Python (imported psycopg2 into Eclipse Python) and a Postgresql Database to create this program.
 To start This program has a password that needs to be entered.
 If the password is entered incorrectly the user will be prompted "Wrong Password, Please try again! and will have to enter the correct password.
 Once the user enters the correct password they will be granted access and greeted with options to display specific queries of information from the database.
@@ -43,7 +43,6 @@ This is done by using psycopg2 to create a connection and creating a cursor to e
 Then the cursor is executed with an sql statement that pulls information from tables in the Postgresql database.
 After the cursor is executed a record is created to fetch the data from the sql statement and that record is printed to in the function.
 After the Products and supplier information is displayed the cursor and connection is closed and the options() function is called to display the options again.
-
 
 5.) “def opciview():” is a function that connects to the Postgresql database and displays customer information from that database. 
 This function is called by selecting Option “3”.
