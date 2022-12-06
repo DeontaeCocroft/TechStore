@@ -23,4 +23,4 @@ If the user isn’t careful and enters an invalid phone number and or postal cod
 
 If a non-numerical value is entered for ID an exception will be thrown sending the user back to the Main Menu and prompts the user that the customer was not deleted and to try again. This was done by using try and exceptions.
 
-8.) def exitprogram(): is a function that simply closes the program and prints a goodbye message. This function is called by selecting Option “4”.
+8.) def exitprogram(): is a function that simply closes the program and prints a goodbye message. This function is called by selecting Option “6”.
