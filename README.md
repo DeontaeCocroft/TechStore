@@ -9,7 +9,7 @@ This program contains 9 functions:
 
 This was done by using if and elif statements. If the user enters a value that does not equal one of these options, they will be prompted to enter the correct option and they will be prompted the options again. This was done by creating a while loop.
 
-1.) def main(): simpily calls the key(): and options(): functions. 
+3.) def main(): simpily calls the key(): and options(): functions. 
 
 4.) def ciview(): This function is called by selecting Option “1”. This is a function that connects to the PostgreSQL database and displays customer information from that database. This is done by using psycopg2 to create a connection and creating a cursor to execute statements to communicate with the MySQL database. Then the cursor executes an SQL statement that pulls information from tables in the PostgreSQL database. After the cursor is executed, a record is created to fetch the data from the SQL statement and that record is printed to in the function. After the customer information is displayed the cursor and connection is closed and the options() function is called to display the options again.
 
