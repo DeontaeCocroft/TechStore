@@ -1,4 +1,4 @@
-# TechStore Database Python Program Explanation
+# TechStore Python Program Explanation
 
 My code is a python program that reads, writes, and deletes information to and from my PostgreSQL database. There is a password for authentication and there are administrative privileges. My program contains 9 functions excluding main(). Here is an explanation of my functions.
 
